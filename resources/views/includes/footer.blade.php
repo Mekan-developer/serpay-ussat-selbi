@@ -1,6 +1,6 @@
-<footer class="footer section">
-    <div class="footer__container container grid">
-        <div class="footer__content">
+<footer id="footer" class="footer section">
+    <div class="container grid footer__container">
+        {{-- <div class="footer__content">
             <a href="#" class="footer__logo">
                 <i class="ri-leaf-line footer__logo-icon"></i> Plantex
             </a>
@@ -17,23 +17,23 @@
                     <i class="ri-arrow-right-up-line button__icon"></i>
                 </button>
             </div>
-        </div>
+        </div> --}}
 
         <div class="footer__content">
-            <h3 class="footer__title">Our Address</h3>
+            <h3 class="footer__title">Biziň salgymyz!</h3>
 
             <ul class="footer__data">
-                <li class="footer__information">1234 - Peru</li>
-                <li class="footer__information">La Libertad - 43210</li>
-                <li class="footer__information">123-456-789</li>
+                <li class="footer__information">Aşgabat şäheri</li>
+                <li class="footer__information">Lorem, ipsum dolor.</li>
+                <li class="footer__information">Lorem, ipsum.</li>
             </ul>
         </div>
 
         <div class="footer__content">
-            <h3 class="footer__title">Contact Us</h3>
+            <h3 class="footer__title">biz bilen habarlaşmak</h3>
 
             <ul class="footer__data">
-                <li class="footer__information">+999 888 777</li>
+                <li class="footer__information">+99362709753</li>
                 
                 <div class="footer__social">
                     <a href="https://www.facebook.com/" class="footer__social-link">
@@ -48,7 +48,7 @@
                 </div>
             </ul>
         </div>
-
+{{-- 
         <div class="footer__content">
             <h3 class="footer__title">
                 We accept all credit cards
@@ -60,8 +60,8 @@
                 <img src="assets/img/card3.png" alt="" class="footer__card">
                 <img src="assets/img/card4.png" alt="" class="footer__card">
             </div>
-        </div>
+        </div> --}}
     </div>
 
-    <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+    <p class="footer__copy">&#169; WebHyzmatlary. Ähli hukuklar goralan</p>
 </footer>

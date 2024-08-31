@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{asset('assets/css/styles.css')}}">
+        {{-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> --}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        @vite(['resources/css/style.css'])
 
         <title>Responsive plants website - Bedimcode</title>
     </head>
@@ -26,7 +27,7 @@
             @include('includes.products')
 
             <!--==================== QUESTIONS ====================-->
-            @include('includes.questions')
+            {{-- @include('includes.questions') --}}
 
             <!--==================== CONTACT ====================-->
             @include('includes.contact')

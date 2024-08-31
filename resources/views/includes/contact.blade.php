@@ -1,24 +1,25 @@
-<section class="contact section container" id="contact">                
-    <div class="contact__container grid">
+<section class="container contact section" id="contact">                
+    <div class="grid contact__container">
         <div class="contact__box">
-            <h2 class="section__title">
-                Reach out to us today <br> via any of the given <br> information
+            <h2 style="font-size:28px" class="section__title">
+                Berilen maglumatlar arkaly<br> bize ýüz tutup <br> bilersiňiz!
             </h2>
 
             <div class="contact__data">
                 <div class="contact__information">
-                    <h3 class="contact__subtitle">Call us for instant support</h3>
+                    <h3 class="contact__subtitle">Jaňlaşmak üçin!</h3>
                     <span class="contact__description">
+                        <a href="tel:+99362709753"></a>
                         <i class="ri-phone-line contact__icon"></i>
-                        +999 888 777
+                        +99362709753
                     </span>
                 </div>
 
                 <div class="contact__information">
-                    <h3 class="contact__subtitle">Write us by mail</h3>
+                    <h3 class="contact__subtitle">mail arkaly biz bilen habarlaşmak!</h3>
                     <span class="contact__description">
                         <i class="ri-mail-line contact__icon"></i>
-                        user@email.com
+                        serpayussathyzmat@email.com
                     </span>
                 </div>
             </div>
